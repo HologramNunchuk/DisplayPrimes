@@ -1,8 +1,10 @@
-showPrimes(10);
+showPrimes(50);
 
 function showPrimes(limit) {
   for (let number = 2; number < limit; number++) {
-    if (isPrime(number)) console.log(number);
+    if (isPrime(number)) {
+      console.log(number);
+    }
   }
 }
 
